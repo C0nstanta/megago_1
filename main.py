@@ -2,14 +2,14 @@ import re
 import os
 import pickle
 import time
-import ffmpeg
-import subprocess
+# import ffmpeg
+# import subprocess
 import pandas as pd
 from glob import glob
-from libs.video_utils import VideoDownloader, VideoExtractor
-from libs.speech_utils import SpeechText
-from libs.clip import ClipEmbedding
-from sentence_transformers import util
+# from libs.video_utils import VideoDownloader, VideoExtractor
+# from libs.speech_utils import SpeechText
+# from libs.clip import ClipEmbedding
+# from sentence_transformers import util
 
 
 def download_video_ffmpeg(video_id=None):
